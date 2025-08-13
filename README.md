@@ -1,11 +1,11 @@
-# 🌐 Landing Page Responsiva: Projeto Web Dev Simplified
+# 🌐 Landing Page Starbucks: 
 
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/34a9d88b-4364-40cd-99ca-cf434796c7de" />
 
 ---
 
 ### 📖 Sobre o Projeto
-Este é um projeto de uma **landing page**, desenvolvida para consolidar conhecimentos em **HTML** e **CSS**. A página foi construída com base em um tutorial do canal do YouTube **Online Tutorials**, com o objetivo de praticar a estruturação de conteúdo, o design responsivo e a estilização de layouts modernos.
+Este é um projeto de uma **landing page**, desenvolvida para consolidar conhecimentos em **HTML** e **CSS**. A página foi construída com base em um tutorial do canal do YouTube **Online Tutorials**, com o objetivo de praticar a estruturação de conteúdo e a estilização de layouts modernos.
 
 ---
 
