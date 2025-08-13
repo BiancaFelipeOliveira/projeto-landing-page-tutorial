@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Starbucks</title>
+</head>
+
+<body>
+    <section>
+        <div class="circulo"></div>
+        <header>
+            <a href="a" ><img src="img/logo (2).png" class="logo"></a>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">WHAT'S NEW</a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </header>
+        <div class="conteudo">
+            <div class="textoCaixa">
+                <h2>It's not just Coffee<br>It's <span>Starbucks</span></h2>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos non nihil dolorum vitae excepturi
+                    illum exercitationem officia accusamus asperiores doloremque, reprehenderit iure, alias quidem porro
+                    qui ratione est vero laboriosam?</p>
+                <a href="#"> Learn More </a>
+            </div>
+            <div class="imagemCaixa">
+                <img src="img/starbucks-matcha.png" class="starbucks">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="img/thumb1.png" onclick="imgSlider('img/starbucks-matcha.png'); changeCircleColor('#017143')"></li>
+            <li><img class="thumb1" src="img/thumb3.png" onclick="imgSlider('img/starbucks-unicorn.png'); changeCircleColor('#d75b91')"></li>
+            <li><img class="thumb1" src="img/thumb2.png" onclick="imgSlider('img/starbucks-latte.png'); changeCircleColor('#eb7495')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="img/facebook.png"></a></li>
+            <li><a href="#"><img src="img/twitter.png"></a></li>
+            <li><a href="#"><img src="img/instagram.png"></a></li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.starbucks').src = anything;
+        }
+
+        function changeCircleColor(color){
+            const circle = document.querySelector('.circulo');
+            circle.style.background = color; 
+        }
+    </script>
+
+</body>
+
+</html>
